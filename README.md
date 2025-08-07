@@ -77,9 +77,9 @@ AngulareCommerceDsMicroServicesDocker_16/
 │   │   │   ├───login.component.html  
 │   │   │   └───login.component.ts  
 │   │   ├───navbar/  
-│   │   │   ├───navbar.component.css 
-│   │   │   ├───navbar.component.html    
-│   │   │   └───navbar.component.ts  
+│   │   │   ├───navbar.component.css   
+│   │   │   ├───navbar.component.html      
+│   │   │   └───navbar.component.ts    
 │   │   ├───register/  
 │   │   │   ├───register.component.css  
 │   │   │   ├───register.component.html  
