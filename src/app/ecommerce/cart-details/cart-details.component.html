@@ -45,10 +45,7 @@
                   (click)="addToCart(detail)"
                   styleClass="p-button-rounded p-button-secondary"
                   [disabled]="
-                    detail.stock === undefined ||
-                    detail.stock === null ||
-                    detail.stock < 1 ||
-                    detail.amount > detail.stock ||
+                    (detail.stock !== undefined && detail.stock < 1) ||
                     isAddingToCart
                   "
                 ></p-button>
